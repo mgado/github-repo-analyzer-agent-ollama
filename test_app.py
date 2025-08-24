@@ -68,7 +68,7 @@ def test_analyze_repo_with_llm_invalid_model(mock_ollama_chat):
     
 
 @pytest.mark.optional    
-def test_analyze_repo_with_llm_with_real_ollama_server():
+def test_analyze_repo_with_llm_with_real_ollama_server_running():
     """
     Tests the LLM analysis function with mock data.
     Note: This test assumes Ollama is running and has a model available.
