@@ -2,6 +2,8 @@
 
 This project is a web-based tool that uses a local Large Language Model (LLM) to act as an AI expert, providing a high-level analysis of any public GitHub repository.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mgado/github-repo-analyzer-agent-ollama/blob/main/GitHub%20Repo%20Analyzer%20agent.ipynb)
+
 ## ✨ Features
 
 -   **Expert Analysis:** Get a structured summary of any GitHub repo's purpose, technology stack, and potential use cases.
