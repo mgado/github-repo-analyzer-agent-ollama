@@ -67,6 +67,8 @@ def test_analyze_repo_with_llm_invalid_model(mock_ollama_chat):
     assert invalid_model in analysis # The error should mention the invalid model name
     
 
+# --- Optional Tests (for local execution with a real ollama server running) ---
+
 @pytest.mark.optional    
 def test_analyze_repo_with_llm_with_real_ollama_server_running():
     """
